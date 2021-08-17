@@ -3,7 +3,7 @@ docker run -d -p 500:5000 --restart=always --name registry registry:2
 
 2. Cloning this repository and build images: </br>
 git clone "https://github.com/mihail204/docker-devops-school.git" </br>
-cd Docker </br>
+cd docker-devops-school </br>
 cd Nginx_1 </br>
 docker build -t localhost:500/web_1:1.0 -t localhost:500/web_1:latest . </br>
 cd ../Nginx_2 </br>
