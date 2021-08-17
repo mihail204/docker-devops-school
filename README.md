@@ -15,5 +15,5 @@ docker push localhost:500/web_1:1.0 </br>
 docker push localhost:500/web_2:1.0
 
 4. Run images using docker-compose: </br>
-   cd ../
+   cd ../ </br>
    docker-compose up
