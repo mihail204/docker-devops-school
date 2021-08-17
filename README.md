@@ -17,3 +17,6 @@ docker push localhost:500/web_2:1.0
 4. Run images using docker-compose: </br>
    cd ../ </br>
    docker-compose up
+
+5. Checking: </br>
+   Go to http://localhost:5555 for web_1 service and go to http://localhost:7777 for web_2 service
